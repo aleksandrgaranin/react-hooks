@@ -1,4 +1,4 @@
-import React, { useState, useCallback, useReducer } from 'react';
+import React, { useCallback, useReducer } from 'react';
 
 import IngredientForm from './IngredientForm';
 import Search from './Search';
