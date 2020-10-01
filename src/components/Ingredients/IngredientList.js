@@ -3,6 +3,7 @@ import React from 'react';
 import './IngredientList.css';
 
 const IngredientList = props => {
+  console.log('RENDERIN INGREDIENT LIST')
   return (
     <section className="ingredient-list">
       <h2>Loaded Ingredients</h2>
@@ -17,5 +18,7 @@ const IngredientList = props => {
     </section>
   );
 };
+
+// we can use React.memo() insread useMemo() in Ingredient component
 
 export default IngredientList;
